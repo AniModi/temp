@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Harry Potter', sans-serif;
+
+}
+html{
+height: 100%;
+}
+body{
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url("src/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nav-bar{
+    margin-left: auto;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#header{
+    background-color:rgb(255, 255, 255,0.69);
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    display: inline;
+}
+
+
+#logo-img{
+    width: 300px;
+    height: 100px;
+    display: inline;
+}
+
+#dashboard{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#search{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+    text-align: center;
+    color: black;
+    background: rgb(163, 163, 163);
+}
+
+#search-icon{
+    cursor: pointer;
+}
+
+
+#login-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#login-button,#register-button{
+    padding: 5px;
+    background-color: darkkhaki;
+    border: none;
+    width: 75px;
+    border-radius: 20px;
+}
+
+
+#login-button{
+    width: 100px;
+    align-self: center;
+}
+
+.fa{
+    display: inline;
+    margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+#login-sec{
+    display: flex;
+    margin: 50px 0;
+    /* height: 60vh; */
+    justify-content: center;
+}
+
+#login-div{
+    margin: auto;
+    width: 300px;
+    z-index: 10;
+    background-color:rgb(255, 255, 255,0.69);
+}
+
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    height: 30vh;
+}
+
+#login-form *{
+    align-self: center;
+}
+
+#login-form input{
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    margin:10px 0px;
+    padding: 3px;
+    text-align: center;
+    color: black;
+    background: rgb(163, 163, 163);
+}
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+footer{
+    font-size: 0.7em;
+    background-color: rgb(173, 173, 207);
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    bottom: 0;
+    flex-wrap: wrap;
+}
+
+footer>*{
+    margin:0 10px;
+}
+
+#footer-list{
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#footer-list li{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}

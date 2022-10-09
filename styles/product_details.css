@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Harry Potter', sans-serif;
+}
+html{
+height: 100%;
+}
+#head-nav{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(190, 190, 251,0.5);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar-ul{
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar-ul li:not(:last-child):hover{
+    background-color: #717171;
+}
+
+#nav-bar-ul li:not(:last-child){
+    padding: 4px 10px;
+}
+
+#search{
+    margin-right: 10px;
+}
+
+#search-li{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+
+#logo-img{
+    width: 250px;
+    height: 50px;
+    display: inline;
+}
+
+/*---------------------------------------------------------------------------------------------------------------  */
+#product-images{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 2.5px 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.images *{
+    width: 350px;
+    height: 550px;
+    border: 1px solid white;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+footer{
+    font-size: 0.7em;
+    background-color: chocolate;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    bottom: 0;
+    flex-wrap: wrap;
+}
+
+footer>*{
+    margin:0 10px;
+}
+
+#footer-list{
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#footer-list li{
+    margin: 0px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
